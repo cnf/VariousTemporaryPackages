@@ -1,0 +1,7 @@
+# Raspberry Pi usb boot
+
+See https://github.com/raspberrypi/usbboot/ for more information
+
+The rpiboot tool provides a file server for loading software into memory on a Raspberry Pi for provisioning. By default, it boots the device with firmware that makes it appear to the host as a USB mass-storage device. The host operating system then treats it as a standard USB drive, allowing the filesystem to be accessed.
+
+`nix run . -- -h`
